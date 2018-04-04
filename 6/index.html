@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grillas</title>
+	<style type="text/css">
+
+		@media(min-width: 0px) and (max-width: 480px){
+			.col1, .col2, .col3{
+				float:none;
+				width: 100%;
+			}
+		}
+		@media(min-width: 481px){
+			.col1, .col2, .col3{
+				float:left;
+				width:33.3%;
+			}
+		}
+
+		.up{
+			width: 100%;
+			height: 30vh;
+			background-color: green;
+			text-align: center;
+		}
+		.title{
+			position: relative;
+			top: 33%;
+			color: white;
+			font-size: 2vw;
+		}
+		.col1{			
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.col2{
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.col3{		
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.img-responsive{
+			width: 80%;
+			max-width: 200px;
+			padding: 10% 10% 10% 10%;
+		}
+		.text{
+			text-align: left;
+			padding: 10% 10% 10% 10%;
+		}
+	</style>
+</head>
+<body>
+	<div class="up">
+		<div class="title">HOLA!! <br> ESTE ES UN EJERCICIO DE ARDILLAS</div>
+	</div>
+
+	<div class="col1">
+		<img class="img-responsive" src="ardilla.jpg">
+		<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	</div>
+	<div class="col2">
+		<img class="img-responsive" src="ardilla.jpg">
+		<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	</div>
+	<div class="col3">
+		<img class="img-responsive" src="ardilla.jpg">
+		<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	</div>
+</body>
+</html>

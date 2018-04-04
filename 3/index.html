@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Semáforo</title>
+    <meta charset="utf-8">
+    <style>
+    	.cuadrado{
+    		width: 100%;
+    		height: 700px;
+    	    }
+
+      @media(min-width:0px) and (max-width: 400px) {
+        .cuadrado{
+          background-color: green;
+        }
+    }
+      @media (min-width:401px) and (max-width: 600px) {
+        .cuadrado{
+          background-color: yellow;
+        }
+    }
+      @media (min-width:601px) {
+        .cuadrado{
+          background-color: red;
+      }
+  }
+    </style>
+  </head>
+  <body>
+  	<div class="cuadrado"></div>
+  </body>
+</html>
